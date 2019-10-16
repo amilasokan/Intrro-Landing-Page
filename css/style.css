@@ -1,0 +1,392 @@
+@font-face {
+  font-family: 'SF UI Display';
+  src: url('./font/SFUIDisplay-Medium.eot');
+  src: url('./font/SFUIDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./font/SFUIDisplay-Medium.woff2') format('woff2'),
+    url('./font/SFUIDisplay-Medium.woff') format('woff'),
+    url('./font/SFUIDisplay-Medium.ttf') format('truetype'),
+    url('./font/SFUIDisplay-Medium.svg#SFUIDisplay-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: url('./font/SFUIDisplay-Light.eot');
+  src: url('./font/SFUIDisplay-Light.eot?#iefix') format('embedded-opentype'),
+    url('./font/SFUIDisplay-Light.woff2') format('woff2'),
+    url('./font/SFUIDisplay-Light.woff') format('woff'),
+    url('./font/SFUIDisplay-Light.ttf') format('truetype'),
+    url('./font/SFUIDisplay-Light.svg#SFUIDisplay-Light') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF UI Display';
+  src: url('SFUIDisplay-Semibold.eot');
+  src: url('SFUIDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('SFUIDisplay-Semibold.woff2') format('woff2'),
+    url('SFUIDisplay-Semibold.woff') format('woff'),
+    url('SFUIDisplay-Semibold.ttf') format('truetype'),
+    url('SFUIDisplay-Semibold.svg#SFUIDisplay-Semibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body, html {
+  margin: 0;
+  font-family: 'SF UI Display';
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  z-index: -1;
+  position: relative;
+}
+
+.button:focus, .btn:focus {
+  outline: none;
+}
+
+/*---------Nav Bar---------------------------------------------------------------------------------*/
+
+
+#mainNav {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.btn-danger {
+  background-color: #FF503A;
+  border: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/*---------Main View Section---------------------------------------------------------------------------------*/
+
+.topSection {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.topText {
+  font-size: 2.5rem;
+  font-weight: 700;
+
+}
+
+.btn-top{
+  width: 15rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.topButtons {
+  margin-top: 2rem;
+
+}
+.bgWave {
+  margin-top: 3rem;
+  position: absolute;
+  z-index: -1;
+}
+
+.mockup {
+  text-align: center;
+  margin-top: 4rem;
+
+}
+
+.howText {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/*---------How it works---------------------------------------------------------------------------------*/
+
+.howSection {
+  margin-top: 10rem;
+  text-align: center;
+}
+.sub1 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.img1 {
+   float: left;
+}
+.subHead1 {
+  text-align: right;
+
+  font-size: 2rem;
+  font-weight: 700;
+
+  margin-top: 14rem;
+  float: right;
+
+
+}
+
+.description1 {
+  text-align: right;
+
+  font-size: 1.4rem;
+  color:#6B737D;
+  font-weight: 500;
+
+  margin-top: 1rem;
+  float: right;
+
+}
+
+
+
+.sub2 {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.img2 {
+   float: right;
+}
+.subHead2 {
+  text-align: left;
+
+  font-size: 2rem;
+  font-weight: 700;
+
+  margin-top: 14rem;
+  float: left;
+
+
+}
+
+.description2 {
+  text-align: left;
+
+  font-size: 1.4rem;
+  color:#6B737D;
+  font-weight: 500;
+
+  margin-top: 1rem;
+  float: left;
+
+}
+
+
+.gridSection {
+  text-align: center;
+  margin-top: 10rem;
+
+}
+
+.whyText {
+  font-size: 2rem;
+  font-weight: 700;
+  clear: both;
+}
+
+.grid-container {
+  margin-top: 3rem;
+  clear: both;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.grid-item {
+  clear: both;
+
+
+  padding: 5rem;;
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+
+
+.grid-item:hover {
+transform: scale(1.05);
+box-shadow: 0px 0px 30px #EDEDED;
+ -webkit-transition:  0.2s ease-in-out;
+ -moz-transition:  0.2s ease-in-out;
+    -ms-transition:  0.2s ease-in-out;
+    -o-transition:  0.2s ease-in-out;
+    transition:  0.2s ease-in-out;
+
+
+}
+
+.icon {
+  width: 22%;
+  float: left;
+  margin-left: 6rem;
+
+}
+
+.iconText {
+font-size: 3rem;
+font-weight: 700;
+color: #FF503A;
+float: left;
+margin-top: 3.2rem;
+margin-left: 1rem;
+
+
+}
+.textDesc {
+  clear: both;
+}
+
+.subHead {
+  font-size: 1.5rem;
+  font-weight: 700;
+
+}
+.description {
+  color:#6B737D;
+  font-size: 1.2rem;
+
+}
+
+.icon3 {
+  margin-top: 2rem;
+  margin-left: 4.5rem;
+}
+.icon4 {
+  margin-top:0.4rem;
+}
+.icon5 {
+  width: 28%;
+  margin-top: 0.5rem;
+}
+
+.icon6 {
+  width: 25%;
+  margin-top: 0.5rem;
+}
+
+
+
+
+
+.faqSection {
+
+text-align: center;
+margin-top: 4rem;
+
+
+}
+
+
+.wrapper {
+  margin-top: 4rem;
+}
+
+.container {
+  margin-top: 1rem;
+}
+
+
+
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';
+    content: "\f077";
+    float: right;
+    padding-right: 1rem;
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f078";
+    padding-right: 1rem;
+}
+
+
+.card-title, .card-header {
+  text-align: left;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+}
+.collapsed {
+  text-align: left;
+  background-color: #FAFAFA;
+
+  padding: 1rem;
+  border: none;
+  border-radius: 4px;
+
+}
+.collapse, .card-body {
+    border: none;
+    border-radius: 4px;
+    text-align: left;
+    padding: 2rem;
+    font-size: 1.2rem;
+
+      background-color: #FAFAFA;
+      color: #6B737D;
+}
+
+.bottomSection {
+  margin-top: 8rem;
+text-align: center;
+
+}
+.bottomBg {
+  position: absolute;
+   margin: auto;
+   width: 50%;
+   left: 0;
+   right: 0;
+   text-align: center;
+   z-index: -1;
+
+}
+
+.letsGoText {
+  font-size: 2.5rem;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+   margin: auto;
+  margin-top: 20rem;
+}
+
+.letsGoSub {
+  font-size: 1.5rem;
+  color: #6B737D;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+   margin: auto;
+   margin-top: 25rem;
+
+}
+
+.btn-bottom {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+   margin: auto;
+   margin-top: 33rem;
+  width: 15rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+}
